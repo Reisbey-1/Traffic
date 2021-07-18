@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrafficLib::ICrossHost" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrossHost.h</FileName>
+      <NewMemberFileName>Vehicle.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::CCrossHost" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAFCIAAAACAAAAABIAAAABAAACQABUAQAABAAABA=</HashCode>
+      <FileName>CrossHost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::CReflector">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAIAQECAAAAAAAAAAQAAAAAAAIAAEAAAAQAgCAA=</HashCode>
+      <FileName>DistanceSensor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="me" />
+      <Field Name="m_linked_List" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TrafficLib::CDistanceSensor">
+    <Position X="5.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QEAAAEBAAAAAAAAAAAAAAAAAAAAAAAAIAAACAgAAAAA=</HashCode>
+      <FileName>DistanceSensor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pParent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TrafficLib::CTLight_T0" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEKAAAAACABAAABAAQAAAAAACAABUAQAABAAAAI=</HashCode>
+      <FileName>TLight_T0.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::CVehicleState" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAgBAAAAA=</HashCode>
+      <FileName>Vehicle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::IVehicle" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAIAAAAAAAAABAAAgAAAABAAAA=</HashCode>
+      <FileName>Vehicle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::CWiFi" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAKAQQAAACAAAAQAAAAIAAAAAACAAAIAAAA=</HashCode>
+      <FileName>WiFi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTcp_IP_Telegram" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAAAAAAAAAAAAQAAAAAAAACAQAAAAAAAAAAAA=</HashCode>
+      <FileName>TrafficLib_Globals.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IInternetObject" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAABA=</HashCode>
+      <FileName>TrafficLib_Globals.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficLib::CVehicle">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIhAIAAAAAAACACQIEAAAAAAAARAAAgAAgBBAABA=</HashCode>
+      <FileName>Vehicle.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pFrontSensor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="dtl::L_List&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIABKAAAABAIAAAAAAACAAAAAAAAIAAAAIFSAAAAA=</HashCode>
+      <FileName>c:\sw\dtl\implement\LinkedList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="sTCP_IP_ADDRESS" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAggAAAAAAA=</HashCode>
+      <FileName>TrafficLib_Globals.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sTCP_IP_TLG" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAACAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrafficLib_Globals.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
